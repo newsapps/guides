@@ -13,6 +13,7 @@ All code uses 4 space soft-tabs:
 - CSS (and variants)
 - YAML
 - Config Files
+- Javascript
 
 Python code must pass pep8. There is a pep8 command available via brew that will check a file and tell you what needs to be fixed.
 
