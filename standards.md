@@ -47,6 +47,6 @@ Prior to pushing code you must:
 - Make sure you have not committed any data dump files: sql dumps, initial_data.json. Fixtures and static data files that are used by the application are okay (test fixtures, kmls, shape files)
 - Make sure you have not committed large binary files (photoshop files) or user uploaded media (blogs.dir, wordpress uploads).
 - Pull code from the server (git pull)
-- Resolve any merge conflicts. If the conflicts exist in compiled files (css if your using sass or less, js if your using coffee script), simply resave your files or rerun the compiler scripts.
+- Resolve any merge conflicts. If the conflicts exist in compiled files (css if you're using sass or less, js if you're using coffee script), simply resave your files or rerun the compiler scripts.
 - Run all tests. If any tests fail, it is your responsibility to resolve those bugs. If the tests that fail are not related to any code you worked on, connect to the folks who were working on that code last to decide who should fix the bugs. Those folks may have pushed the bugs and may be working on fixes.
 - Push. Once all the tests pass, you can push your code.
